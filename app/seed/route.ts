@@ -121,5 +121,4 @@ export async function GET() {
     return Response.json({ error }, { status: 500 });
   }
 }
-const response=await GET();
-  
+const response = await GET();
